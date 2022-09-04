@@ -74,8 +74,8 @@ def pass_mission():
 
 while 1:
 	pass_mission()
-	if counter == 1:
+	if counter == 10:
 		counter = 0
-		time.sleep(1)
+		time.sleep(0)
 	else:
 		counter += 1
